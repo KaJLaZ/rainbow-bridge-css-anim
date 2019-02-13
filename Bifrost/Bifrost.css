@@ -1,0 +1,138 @@
+body{
+	margin:0px; background:url(Background.png); min-width:680px;
+}
+/*main*/
+/*1280*/
+main{
+	 display:flex; flex-direction:row; justify-content:space-around; 
+}
+ #tree{
+	  display:flex; flex-direction:row;
+ }
+ div.branch div{
+	 width:1px; display:flex;
+	 flex-direction:column; 
+	 background: #ff0a00;
+	 box-shadow: 0 -30px 15px -15px #ff7b00 inset;
+ }
+  #b1{
+     animation: trees 0.4s infinite alternate; height:122px;
+ }
+  #b2{
+     animation: trees 0.5s infinite alternate; height:160px;
+ }
+  #b3{
+     animation: trees 0.6s infinite alternate; height:102px;
+ }
+  #b4{
+     animation: trees 0.7s infinite alternate; height:196px;
+ }
+  #b5{
+     animation: trees 0.8s infinite alternate; height:126px;
+ }
+  #b6{
+     animation: trees 0.9s infinite alternate; height:150px;
+ }
+  #b7{
+     animation: trees 1.1s infinite alternate; height:148px;
+ }
+  #b8{
+     animation: trees 1.2s infinite alternate; height:116px;
+ }
+  #b9{
+     animation: trees 1.3s infinite alternate; height:140px;
+ }
+  #b10{
+     animation: trees 1.4s infinite alternate; height:194px;
+ }
+  #b11{
+     animation: trees 1.5s infinite alternate; height:190px;
+ }
+  #b12{
+     animation: trees 1.6s infinite alternate; height:152px;
+ }
+  #b13{
+     animation: trees 1.7s infinite alternate; height:158px;
+ }
+  #b14{
+     animation: trees 1.8s infinite alternate; height:132px;
+ }
+  #b15{
+     animation: trees 1.9s infinite alternate; height:146px;
+ }
+  #b16{
+     animation: trees 2s infinite alternate; height:156px;
+ }
+  #b17{
+     animation: trees 2.1s infinite alternate; height:192px;
+ }
+  #b18{
+     animation: trees 2.2s infinite alternate; height:124px;
+ }
+  #b19{
+     animation: trees 2.3s infinite alternate; height:164px;
+ }
+  #b20{
+     animation: trees 2.4s infinite alternate; height:124px;
+ }
+  #b21{
+     animation: trees 2.5s infinite alternate; height:102px;
+ }
+  #b22{
+     animation: trees 2.6s infinite alternate; height:118px;
+ }
+  #b23{
+     animation: trees 2.7s infinite alternate; height:194px;
+ }
+  #b24{
+     animation: trees 2.8s infinite alternate; height:152px;
+ }
+  #b25{
+     animation: trees 2.9s infinite alternate; height:140px;
+ }
+  #b26{
+     animation: trees 3s infinite alternate; height:134px;
+ }
+  #b27{
+     animation: trees 3.1s infinite alternate; height:120px;
+ }
+  #b28{
+     animation: trees 3.2s infinite alternate; height:194px;
+ }
+  #b29{
+     animation: trees 3.3s infinite alternate; height:102px;
+ }
+  #b30{
+     animation: trees 3.4s infinite alternate; height:110px;
+ }
+  #b31{
+     animation: trees 3.5s infinite alternate; height:140px;
+ }
+  #b32{
+     animation: trees 3.6s infinite alternate; height:164px;
+ }
+ @keyframes trees {
+  17% {
+    background:#ff7b00;
+    box-shadow: 0 -30px 15px -15px #ffc800 inset;
+  }
+  39% {
+    background: #ffc800;
+    box-shadow: 0 -30px 15px -15px #48ff00 inset;
+  }
+  51% {
+    background: #48ff00;
+    box-shadow: 0 -30px 15px -15px #00d1ff inset;
+  }
+  61% {
+    background: #00d1ff;
+    box-shadow: 0 -30px 15px -15px #006aff inset;
+  }
+  85% {
+    background: #006aff;
+    box-shadow: 0 -30px 15px -15px #4c00ff inset;
+  }
+}
+
+
+
